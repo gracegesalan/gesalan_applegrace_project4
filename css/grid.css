@@ -32,7 +32,7 @@ img, embed, object, video, picture {
   .box {
      background-color: grey;
      color: rgb(27, 27, 27);
-     /* border-radius: 5px; */
+     /* border-radius: 10px; */
      padding: 20px;
      text-align: center;
      margin-top: 10px;
@@ -42,7 +42,7 @@ img, embed, object, video, picture {
    .box2 {
       background-color: darkgrey;
       color: rgb(27, 27, 27);
-      /* border-radius: 5px; */
+      border-radius: 10px;
       padding: 20px;
       text-align: center;
       margin-top: 10px;
@@ -52,11 +52,11 @@ img, embed, object, video, picture {
    .box3 {
       background-color: #CBCBCB;
       color: rgb(27, 27, 27);
-      /* border-radius: 5px; */
+      /* border-radius: 10px; */
       padding: 20px;
       text-align: center;
       /* margin-top: 10px; */
-      margin-bottom:10px;
+      /* margin-bottom:10px; */
     }
   
   /* ---Mobile Library Grid Styles--- */
