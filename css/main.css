@@ -1,55 +1,55 @@
-@media screen and (min-width: 768px) {
-    #main-logo {
-        order: -1;
-    }
-}
 
-@media screen and (max-width:767px) {
-    #photo3 {
-        display: none;
-    }
-
-    #photo4 {
-        display: none;
-    } 
-
-    #section3-p {
-        display: none;
-    }
+h2 {
+    font-size: 20px;
+    
 }
 
 /* 1. Nav */
 
+#main-header {
+    position: sticky;
+}
+
 header nav {
-    height: 65px;
+    height: 67px;
 }
-
-#logo {
-    position: absolute;
-}
-
-/* 2. Hero Image */
-
-
 
 #hero-con {
     height: 534px;
-    background-color: grey;
+    background-color: #E6E4E4;
+    padding-top: 0;
 }
 
+
 #catchphrase {
-    width: 198px;
     height: 22px;
-    position: absolute;
     text-align: center;
-    
+    margin-top: 60px;
+    grid-row: 1/3;
 }
 
 #hero-button {
-    width: 95px;
     height: 22px;
-    position: absolute;
+    margin-top: 110px;
+    grid-row: 1/3;
 }
+
+#nav {
+    grid-row: 1/2;
+}
+
+#logo {
+    height: 76px;
+    grid-row: 1/2;
+    margin-top: 20px;
+    
+}
+
+#herotext {
+    text-align: center;
+}
+
+
 
 /* 3. Section 1 */
 
@@ -65,29 +65,14 @@ header nav {
     height: 21px;
 }
 
-#gal1 {
+#gal1, #gal2, #gal3 {
     height: 129px;
 }
 
-#p1 {
+#p1, #p2, #p3 {
     height: 58px;
 }
 
-#gal2 {
-    height: 129px;
-}
-
-#p2 {
-    height: 58px;
-}
-
-#gal3 {
-    height: 129px;
-}
-
-#p3 {
-    height: 58px;
-}
 
 /* 4. Section 2 */
 
@@ -98,19 +83,15 @@ header nav {
 }
 
 #section2-text {
-    height: 120px;
+    height: 105px;
 }
 
-#photo1 {
-    height: 171px;
-}
-
-#photo2 {
+#photo1, #photo2 {
     height: 171px;
 }
 
 #section2-button {
-    height: 26px;
+    height: 27px;
 }
 
 /* 5. Section 3 */
@@ -121,16 +102,13 @@ header nav {
 }
 
 #section3-text {
-    height: 30px;
+    height: 66px;
 }
 
 #video {
     height: 122px;
 }
 
-#section3-p {
-    height: 30px;
-}
 
 /* 6. Section 4 */
 
@@ -140,20 +118,18 @@ header nav {
 }
 
 #section4-text {
-    height: 60px;
+    height: 53px;
 }
 
 #section4-button {
     height: 26px;
 }
 
-#team1 {
-    height: 169px;
+#team1, #team2 {
+    height: 168px;
 }
 
-#team2 {
-    height: 169px;
-}
+
 
 /* 7. Section 5 */
 
@@ -163,21 +139,13 @@ header nav {
 }
 
 #section5-text {
-    height: 43px;
+    height: 35px;
 }
 
-#store1 {
-    height: 71px;
+#store1, #store2, #store3, #store4 {
+    height: 65px;
 }
-#store2 {
-    height: 71px;
-}
-#store3 {
-    height: 71px;
-}
-#store4 {
-    height: 71px;
-}
+
 
 /* 8. Section 6 */
 
@@ -187,13 +155,41 @@ header nav {
 }   
 
 #section6-text {
-    height: 60px;
+    height: 50px;
 }
 
 #review {
-    height: 83px;
+    height: 84px;
 }
 
 #section6-button {
-    height: 24px;
+    height: 21px;
+}
+
+@media screen and (max-width: 767px) {
+    /* #main-logo {
+        order: -1;
+    } */
+
+    #photo3 {
+        display: none;
+    }
+
+    #photo4 {
+        display: none;
+    } 
+
+    #section3-p {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    #hero-con {
+        height: 834px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+   
 }
