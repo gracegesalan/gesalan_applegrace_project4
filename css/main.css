@@ -220,6 +220,10 @@ header nav {
         height: 834px;
     }
 
+    #nav {
+        text-align: left;
+       }
+
     /* Section 1 */
 
     #gal1, #gal2, #gal3 {
@@ -326,5 +330,9 @@ header nav {
    #main-header {
     position: sticky;
     top: 0;
+   }
+
+   #nav {
+    text-align: left;
    }
 }
