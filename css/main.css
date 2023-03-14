@@ -1,7 +1,11 @@
 
 h2 {
-    font-size: 20px;
+    font-size: 10px;
     
+}
+
+p {
+    font-size: 15px;
 }
 
 /* 1. Nav */
@@ -171,6 +175,8 @@ header nav {
         order: -1;
     } */
 
+    
+
     #photo3 {
         display: none;
     }
@@ -188,6 +194,73 @@ header nav {
     #hero-con {
         height: 834px;
     }
+
+    /* Section 1 */
+
+    #gal1, #gal2, #gal3 {
+        height: 128px;
+    }
+
+    #p1, #p2, #p3 {
+        height: 63px;
+    }
+
+    /* Section 2 */
+
+    #photo1 {
+        grid-row: 1/2;
+    }
+
+    #photo1, #photo2, #photo3, #photo4 {
+        height: 171px;
+    }
+
+    #section2-text {
+        grid-row: 1/2;
+        
+    }
+
+    #section2-button {
+        grid-row: 1/2;
+        margin-top: 130px;
+    }
+
+   /* Section 3 */
+
+    #video {
+        grid-row: 1/2;
+        height: 159px;
+    }
+
+    #section3-text {
+        grid-row: 1/2;
+        height: 30px;
+    }
+
+    #section3-p {
+        grid-row: 1/2;
+        height: 60px;
+        margin-top: 65px;
+    }
+
+    /* Section 4 */
+
+    #section4-text {
+        grid-row: 1/2;
+        height: 60px;
+    }
+
+    #team1, #team2 {
+        grid-row: 1/2;
+        height: 169px;
+    }
+
+    #section4-button {
+        grid-row: 1/2;
+        height: 26px;
+        margin-top: 80px;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
