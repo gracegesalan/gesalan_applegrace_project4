@@ -61,9 +61,8 @@ header nav {
 
 
 #main-header {
-    position: sticky;
+    
     background-color: grey;
-    top: 0;
 }
 
 
@@ -88,6 +87,10 @@ header nav {
 
 #p1, #p2, #p3 {
     height: 58px;
+}
+
+#gal2, #gal3 {
+    grid-row: 2/3;
 }
 
 
@@ -318,5 +321,10 @@ header nav {
 @media screen and (min-width:1200px) {
    #burger-con {
     display: none;
+   }
+
+   #main-header {
+    position: sticky;
+    top: 0;
    }
 }
