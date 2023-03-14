@@ -10,9 +10,9 @@ p {
 
 /* 1. Nav */
 
-#main-header {
+/* #main-header {
     position: sticky;
-}
+} */
 
 header nav {
     height: 67px;
@@ -46,11 +46,24 @@ header nav {
     height: 76px;
     grid-row: 1/2;
     margin-top: 20px;
-    
+    margin-bottom: -21px;
 }
 
 #herotext {
     text-align: center;
+}
+
+#burger-con {
+    height: 54px;
+    grid-row: 1/2;
+}
+
+
+
+#main-header {
+    position: sticky;
+    background-color: grey;
+    top: 0;
 }
 
 
@@ -170,10 +183,19 @@ header nav {
     height: 21px;
 }
 
+/* Footer */
+
+#footer-nav {
+    background-color: #888888;
+    height: 134px;
+}
+
+#footer-logo {
+    height: 67px;
+}
+
 @media screen and (max-width: 767px) {
-    /* #main-logo {
-        order: -1;
-    } */
+   
 
     
 
@@ -285,8 +307,16 @@ header nav {
         height: 24px;
     }
 
+    /* Footer */
+
+    #footer-nav {
+        background-color: #888888;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
-   
+   #burger-con {
+    display: none;
+   }
 }
