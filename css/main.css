@@ -1,0 +1,133 @@
+@media screen and (min-width: 768px) {
+    #main-logo {
+        order: -1;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #photo3 {
+        display: none;
+    }
+
+    #photo4 {
+        display: none;
+    } 
+
+    #section3-p {
+        display: none;
+    }
+}
+
+/* 1. Nav */
+
+header nav {
+    height: 65px;
+}
+
+#logo {
+    position: absolute;
+}
+
+/* 2. Hero Image */
+
+
+
+#hero-con {
+    height: 534px;
+    background-color: grey;
+}
+
+#catchphrase {
+    width: 198px;
+    height: 22px;
+    position: absolute;
+    text-align: center;
+    
+}
+
+#hero-button {
+    width: 95px;
+    height: 22px;
+    position: absolute;
+}
+
+/* 3. Section 1 */
+
+#section1 {
+    background-color: white;
+    /* height: 845px; */
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+
+#section1-text {
+    height: 21px;
+}
+
+#gal1 {
+    height: 129px;
+}
+
+#p1 {
+    height: 58px;
+}
+
+#gal2 {
+    height: 129px;
+}
+
+#p2 {
+    height: 58px;
+}
+
+#gal3 {
+    height: 129px;
+}
+
+#p3 {
+    height: 58px;
+}
+
+/* 4. Section 2 */
+
+#section2 {
+    background-color: #CBCBCB;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+#section2-text {
+    height: 120px;
+}
+
+#photo1 {
+    height: 171px;
+}
+
+#photo2 {
+    height: 171px;
+}
+
+#section2-button {
+    height: 26px;
+}
+
+/* 5. Section 3 */
+
+#section3 {
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+#section3-text {
+    height: 30px;
+}
+
+#video {
+    height: 122px;
+}
+
+#section3-p {
+    height: 30px;
+}
