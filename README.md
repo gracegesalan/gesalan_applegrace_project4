@@ -1,1 +1,22 @@
-# gesalan_applegrace_project4
+# Project 4
+
+Created a responsive page from mobile, tablet, and 1200px desktop sizes.
+
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+
+
+## Credits
+
+Apple Grace Gesalan
+
+## License
+
+MIT
