@@ -131,3 +131,69 @@ header nav {
 #section3-p {
     height: 30px;
 }
+
+/* 6. Section 4 */
+
+#section4 {
+    background-color: #CBCBCB;
+    padding-bottom: 10px;
+}
+
+#section4-text {
+    height: 60px;
+}
+
+#section4-button {
+    height: 26px;
+}
+
+#team1 {
+    height: 169px;
+}
+
+#team2 {
+    height: 169px;
+}
+
+/* 7. Section 5 */
+
+#section5 {
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+#section5-text {
+    height: 43px;
+}
+
+#store1 {
+    height: 71px;
+}
+#store2 {
+    height: 71px;
+}
+#store3 {
+    height: 71px;
+}
+#store4 {
+    height: 71px;
+}
+
+/* 8. Section 6 */
+
+#section6 {
+    background-color: #CBCBCB;
+    padding-bottom: 20px;
+}   
+
+#section6-text {
+    height: 60px;
+}
+
+#review {
+    height: 83px;
+}
+
+#section6-button {
+    height: 24px;
+}
