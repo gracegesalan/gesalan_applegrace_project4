@@ -85,10 +85,7 @@ header nav {
     height: 129px;
 }
 
-#p1, #p2, #p3 {
-    height: 58px;
-    display: none;
-}
+
 
 #gal2, #gal3 {
     grid-row: 2/3;
@@ -200,7 +197,10 @@ header nav {
 
 @media screen and (max-width: 767px) {
    
-
+    #p1, #p2, #p3 {
+        
+        display: none;
+    }
     
 
     #photo3 {
