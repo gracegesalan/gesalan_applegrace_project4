@@ -87,6 +87,7 @@ header nav {
 
 #p1, #p2, #p3 {
     height: 58px;
+    display: none;
 }
 
 #gal2, #gal3 {
@@ -126,7 +127,7 @@ header nav {
 }
 
 #video {
-    height: 122px;
+    height: 250px;
 }
 
 
@@ -146,7 +147,7 @@ header nav {
 }
 
 #team1, #team2 {
-    height: 168px;
+    height: 290px;
 }
 
 
