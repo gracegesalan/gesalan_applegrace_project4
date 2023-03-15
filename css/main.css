@@ -227,7 +227,7 @@ header nav {
     /* Section 1 */
 
     #gal1, #gal2, #gal3 {
-        height: 128px;
+        height: 220px;
     }
 
     #p1, #p2, #p3 {
@@ -241,7 +241,7 @@ header nav {
     }
 
     #photo1, #photo2, #photo3, #photo4 {
-        height: 171px;
+        height: 250px;
     }
 
     #section2-text {
@@ -258,7 +258,7 @@ header nav {
 
     #video {
         grid-row: 1/2;
-        height: 159px;
+        height: 240px;
     }
 
     #section3-text {
@@ -281,7 +281,7 @@ header nav {
 
     #team1, #team2 {
         grid-row: 1/2;
-        height: 169px;
+        height: 280px;
     }
 
     #section4-button {
